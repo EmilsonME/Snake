@@ -3,8 +3,8 @@ $(function(){
         row: 50,
         col: 50,
         indexDimension: 13, //15px by 15px
-        backgroundColor: "gray",
-        snakeColor: "#4f3001",
+        backgroundColor: "#d1d1d1",
+        snakeColor: "#03ba3d",
         chickenColor: "#60004f",
         speed: 50
     }
@@ -47,7 +47,7 @@ $(function(){
             (counter != 0) ? $(board.boardArr[snake[counter][0]][snake[counter][1]])
             .css({"background-color": gameSettings.snakeColor}) : 
             $(board.boardArr[snake[counter][0]][snake[counter][1]])
-            .css({"background-color": "#724e19"});
+            .css({"background-color": "#028c2e"});
         }
     }
     function displayChicken(){
