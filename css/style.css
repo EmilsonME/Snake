@@ -1,23 +1,23 @@
 .wrapper{
-    margin: 0 auto;
+    margin: 5px auto;
     width: 1000px; 
-    height: 670px;
-    background-color: gray;
+    height: 650px;
+    background-color:black;
+    border: 3px solid red;
+  
 }
 
 table{
-    border: none;
-    border-collapse: collapse;
     float: left;
-}
-.game-area{
-    margin: auto 0;
-    margin-top: 100px;
-   
+    border-collapse: collapse;
+    border-right: 3px solid red;
+    
+    
 }
 
-td{
+td{ 
     border: none;
+    border-collapse: collapse;
     padding:0;
     margin: 0;
 }
@@ -28,8 +28,14 @@ td{
     font-size: 2em;
     text-align: center;
     width: 30%;
-    margin-top: 25%;
+    margin-top: 21%;
     margin-right: 17px;
+  
+}
+#score{
+    font-size: 64px;
+    font-weight: bold;
+    color: red
 }
 
 
